@@ -6,7 +6,7 @@ const [message, setMessage] = useState('');
 useEffect(() => {
 fetch('/api/db')
 .then((res) => res.json())
-.then((data) => setMessage(data.message));
+.then((data) => setMessage(data.fraseLMH));
 }, []);
 return (
 <div>
