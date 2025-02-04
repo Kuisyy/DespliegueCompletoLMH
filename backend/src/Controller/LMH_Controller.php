@@ -15,7 +15,7 @@ class LMH_Controller extends AbstractController
         $this->connection = $connection;
     }
 
-    #[Route('/api/db', name: 'get_db')]
+    #[Route('/api/LMH', name: 'get_LMH')]
     public function index(): JsonResponse
     {
         $sql = 'SELECT fraseLMH FROM secretosLMH LIMIT 1';
