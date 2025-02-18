@@ -1,0 +1,14 @@
+# Ignore all SSL-related files
+*.key
+*.crt
+*.pem
+*.csr
+*.srl
+*.der
+*.pfx
+*.p12
+*.cert
+
+# Don't ignore the .gitignore file itself
+!.gitignore
+

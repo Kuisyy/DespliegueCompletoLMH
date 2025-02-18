@@ -1,2 +1,0 @@
-# DespliegueCompletoLMH
-## Luis Maldonado Hernández
